@@ -1,0 +1,29 @@
+.list-artists-container {
+    padding-top: 10vh;
+    height: 94.2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.tunes-container {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    padding-top: 50px;
+    margin-inline: 10px;
+
+    flex-wrap: wrap;
+}
+.artist-list {
+
+
+}
+.artist-list > button {
+
+    margin: 10px;
+}

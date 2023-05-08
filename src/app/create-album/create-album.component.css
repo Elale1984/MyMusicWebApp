@@ -1,0 +1,87 @@
+
+.create-album-container {
+    height: 79vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 50vh;
+    padding-top: 10vh;
+}
+
+.horizontal-form-set {
+    display: flex;
+    justify-content: center;
+}
+.fieldset-left {
+    margin-inline: 20px;
+}
+.fieldset-right {
+    margin-inline: 20px;
+}
+.create-album-form-container {
+    width: 100%;
+}
+
+.create-button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+button {
+    margin-top: 3vh;
+    padding-inline: 30px;
+    border-radius: 7px;
+}
+
+button:hover {
+    background: chartreuse !important;
+    color: black;
+    border-color: deepskyblue !important;
+}
+
+.album-created-message {
+    display: flex;
+    justify-content: center;
+    color: chartreuse;
+    margin-top: 150px;
+
+}
+
+.album-created-message h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 0.5s steps(30, end),
+               grow-shrink 4s normal;
+    animation-fill-mode: forwards;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 55%
+    }
+}
+
+@keyframes grow-shrink {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+.form-control {
+    border-radius: 5px;
+}
+.form-control:hover {
+    border: 1px solid chartreuse;
+}

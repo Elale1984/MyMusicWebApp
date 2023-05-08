@@ -1,0 +1,10 @@
+.d-flex {
+    margin-right: 10vh;
+}
+.navbar-brand {
+    margin-left: 10vh;
+}
+navbar {
+    position: sticky;
+    top: 0;
+}

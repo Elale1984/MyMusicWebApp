@@ -1,0 +1,72 @@
+.full-screen {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    height: 79vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.options-container {
+    display: flex;
+
+}
+
+.button-options {
+    padding: 5px;
+    margin-top: -4vh;
+}
+
+.option-button-create, .option-button-artists {
+    border-radius: 7px;
+    margin-inline: 5px;
+    padding: 5px;
+    animation: fade-in 4s;
+}
+
+.option-button-create:hover, .option-button-artists:hover {
+    background: chartreuse !important;
+    color: black;
+    border-color: deepskyblue !important;
+
+}
+
+
+.logo {
+    margin-top: -100px;
+}
+
+img {
+    width: fit-content;
+    height: fit-content;
+}
+
+.logo img {
+    animation: logo-animation 3s ease-in-out;
+}
+
+@keyframes logo-animation {
+    from {
+        transform: scale(1.5);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
